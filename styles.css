@@ -1,0 +1,43 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: gray; /* Background color for the body */
+}
+
+header {
+  text-align: center;
+  background-color: #3498db; /* Background color for the header */
+  color: #fff;
+  padding: 20px;
+}
+
+header img {
+  border-radius: 50%;
+  margin-top: 10px;
+  width: 150px; /* Width of the profile photo */
+  height: 150px; /* Height of the profile photo */
+  object-fit: cover; /* Maintain aspect ratio and cover container */
+}
+
+section {
+  margin: 20px;
+}
+
+.projects,
+.skills,
+.contact {
+  background-color: #fff; /* Background color for project, skills, and contact sections */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
